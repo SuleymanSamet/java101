@@ -17,6 +17,17 @@ public class Uslusayi {
             i++;
         }
         System.out.println("cevap "+sonuc);
+        
+        //for ile üst alma
+        System.out.println("Taban sayısını giriniz : ");
+        int x= scanner.nextInt();
+        System.out.println("Üst sayısını giriniz :");
+        int y= scanner.nextInt();
+        int sonuc=1;
+        for (int i=1;i<=y;i++){
+            sonuc*=x;
+        }
+        System.out.println("Sonuc : "+sonuc);
 
 
     }
