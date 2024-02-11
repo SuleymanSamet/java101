@@ -27,6 +27,7 @@ public class Atm {
                         System.out.println("Yatırmak istediğiniz tutar :" );
                         paraIslemleri=scanner.nextInt();
                         bakiye+=paraIslemleri;
+                        break;
 
                     case 2:
                         System.out.println("Çekmek istediğiniz tutar :");
@@ -36,9 +37,11 @@ public class Atm {
                         }else{
                             bakiye-=paraIslemleri;
                         }
+                        break;
 
                     case 3:
                         System.out.println("Banka hesabınızdaki tutar : "+bakiye);
+                        break;
 
                     case 4:
                         System.out.println("Tekrar görüşmek üzere İyi günler.");
