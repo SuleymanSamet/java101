@@ -45,6 +45,15 @@ sayısı 1342’ye eşit olmadığı için armstrong sayı olmaz.*/
         } else {
             System.out.println(number + " sayısı bir Armstrong sayısı değildir.");
         }
+        //BİR SAYININ BASAMAK SAYILARINI TOPLAMINI HESAPLAYAN PROGRAM Örnek : 1643 = 1 + 6 + 4 + 3 = 14
+        int adet=0;
+        int toplam=0;
+        while (number!=0){
+            toplam=(number%10)+toplam;
+            number/=10;
+            ++adet;
+        }
+        System.out.println("Basamak toplamı : "+toplam);
 
 
 
